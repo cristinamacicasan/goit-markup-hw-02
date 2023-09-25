@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio Homework Project</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <!--Logo WebStudio-->
       <a href="./images/logo-webstudio.png" class="logo-link">
         <p class="logo">
@@ -15,26 +16,29 @@
         </p>
       </a>
       <nav>
-        <ul>
-          <li><a href="index.html">Studio</a></li>
-          <li><a href="portofoliu.html">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+        <ul class="links">
+          <li><a class="studio" href="index.html">Studio</a></li>
+          <li><a class="portofoliu" href="portofoliu.html">Portfolio</a></li>
+          <li><a class="contacts" href="#">Contacts</a></li>
         </ul>
       </nav>
 
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+12127724150">+1 212-772-4150</a>
+      <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a
+      ><br />
+      <a class="tel" href="tel:+12127724150">+1 212-772-4150</a>
     </header>
 
     <!-- main section -->
     <main>
-      <section>
+      <section class="main">
         <hr />
         <h1>
           EFFECTIVE SOLUTIONS FOR<br />
           YOUR BUSINESS
         </h1>
-        <button type="button">Request our service</button>
+        <button class="button-request" type="button">
+          Request our service
+        </button>
       </section>
 
       <!-- about company -->
@@ -42,7 +46,7 @@
         <ul>
           <li>
             <h3>ATTENTION TO DETAILS</h3>
-            <p>
+            <p class="details">
               We go into all the details and processes<br />
               of your business to develop a<br />
               customized solution.
@@ -53,7 +57,7 @@
         <ul>
           <li>
             <h3>PUNCTUALITY</h3>
-            <p>
+            <p class="details">
               With us, you can feel safe and secure.<br />
               An important principle of the company:<br />
               respect your time and deadlines.
@@ -64,7 +68,7 @@
         <ul>
           <li>
             <h3>PLANNING</h3>
-            <p>
+            <p class="details">
               You will be able to observe and<br />
               participate in every phase of solution<br />
               development and implementation.
@@ -75,7 +79,7 @@
         <ul>
           <li>
             <h3>MODERN TECHNOLOGIES</h3>
-            <p>
+            <p class="details">
               We use innovative tools to solve<br />
               assigned tasks. It's time to simplify<br />
               work processes.
@@ -172,20 +176,23 @@
     </main>
 
     <!-- footer section -->
-    <footer>
+    <footer class="footer">
       <hr />
       <!-- logo WebStudio -->
       <a href="./images/logo-webstudio.png" class="logo-link">
         <p class="logo">
           <span class="logo-web">Web</span>
-          <span class="logo-studio">Studio</span>
+          <span class="footer-studio">Studio</span>
         </p>
       </a>
 
       <address>
-        695 Park Ave, NY 10065, USA<br />
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
-        <a href="tel:+12127724150">+1 212-772-4150</a>
+        <p class="address">695 Park Ave, NY 10065, USA</p>
+        <br />
+        <a class="footer-address" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        ><br />
+        <a class="footer-address" href="tel:+12127724150">+1 212-772-4150</a>
       </address>
     </footer>
   </body>
