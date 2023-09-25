@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <!--Logo WebStudio-->
       <a href="./images/logo-webstudio.png" class="logo-link">
         <p class="logo">
@@ -16,15 +16,16 @@
         </p>
       </a>
       <nav>
-        <ul>
-          <li><a href="index.html">Studio</a></li>
-          <li><a href="portofoliu.html">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+        <ul class="links">
+          <li><a class="studio" href="index.html">Studio</a></li>
+          <li><a class="portofoliu" href="portofoliu.html">Portfolio</a></li>
+          <li><a class="contacts" href="#">Contacts</a></li>
         </ul>
       </nav>
 
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+12127724150">+1 212-772-4150</a>
+      <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a
+      ><br />
+      <a class="tel" href="tel:+12127724150">+1 212-772-4150</a>
     </header>
 
     <!-- main section -->
@@ -39,7 +40,9 @@
           <li><button type="button">Marketing</button></li>
         </ul>
 
-        <ul>
+        <!-- gallery -->
+
+        <ul class="gallery">
           <li>
             <img
               src="./images/technoduck-1.jpg"
@@ -153,19 +156,22 @@
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
       <!--logo WebStudio-->
       <a href="./images/logo-webstudio.png" class="logo-link">
         <span class="logo">
           <span class="logo-web">Web</span>
-          <span class="logo-studio">Studio</span>
+          <span class="footer-studio">Studio</span>
         </span>
       </a>
 
       <address>
-        695 Park Ave, NY 10065, USA<br />
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
-        <a href="tel:+12127724150">+1 212-772-4150</a>
+        <p class="address">695 Park Ave, NY 10065, USA</p>
+        <br />
+        <a class="footer-address" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        ><br />
+        <a class="footer-address" href="tel:+12127724150">+1 212-772-4150</a>
       </address>
     </footer>
   </body>
