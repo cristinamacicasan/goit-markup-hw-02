@@ -1,3 +1,21 @@
+:root{--link-color:#212121;
+      --background-color:#2f303a;
+      --border-color:#ececec;
+      --link-activ:#2196f3;
+      --main-background:#2f303a;
+      --address:#757575;
+      --button-hover:#188ce8;
+      --background:#ffffff;
+      --black:#000000;
+      --team-background:#f5f4fa;
+
+
+}     
+
+body{
+  font-family: Roboto;
+}
+
 a {
   text-decoration: none;
 }
@@ -14,11 +32,11 @@ ul {
 
 /*Logo WebStudio*/
 .header {
-  border: 1px solid #ececec;
+  border: 1px solid var(--border-color);
   width: 1600px;
   top: 80px;
   angle: 0 deg;
-  background: #FFFFFF;
+  background: var(--background);
   align-items: center;
 
 }
@@ -28,11 +46,11 @@ ul {
   font-family: Oleo Script;
   font-size: 26px;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 2.8;
   letter-spacing: 0.03em;
   text-align: left;
   
-  color: #2196f3;
+  color:var(--link-activ);
   
 }
 
@@ -40,87 +58,106 @@ ul {
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
-  line-height: 31px;
+  line-height: 2.4;
   letter-spacing: 0.03em;
   text-align: left;
-  color: black;
+  color: var(--black);
 }
 
 .studio {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16.41px;
+  line-height: 1.28;
   letter-spacing: 0.02em;
   text-align: left;
   width: 42px;
   height: 16px;
   margin-top: 32px;
-  color: #212121;
+  color:var(--link-color);
 }
 
 .portofoliu {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16.41px;
+  line-height: 1.28;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--link-color);
   width: 58px;
   height: 16px;
+
+}
+
+.portofoliu:active{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color:var(--link-activ);
+  width: 58px;
+  height: 16px;
+  top: 32px;
+
 }
 
 .contacts {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.25;
   letter-spacing: 0.02em;
   text-align: left;
   width: 59px;
   height: 16px;
   top: 32px;
-  color: #212121;
+  color:var(--link-color);
 }
 
 a:hover {
-  color: #2196f3;
+  color: var(--link-activ);
+}
+a:active{
+  color: var(--link-activ);
 }
 
 .email {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.25;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #757575;
+  color: var(--address);
 }
 
 .tel {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.25;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #757575;
+  color: var(--address);
 }
-/*main*/
+/*main portofoliu*/
+
+
+
+/*main studio*/
 .main{
   width: 1600px;
   height: 600px;
   top: 80px;
-  background-color: #2F303A;
+  background-color:var(--main-background);
 }
 h1{
   font-family: Roboto;
   font-size: 44px;
   font-weight: 900;
-  line-height: 60px;
-  letter-spacing: 0.06em;
-  text-align: center;
-  color: #ffffff;
+  color: var(--background);
   width: 696px;
   height: 120px;
   margin-top: 280px;
@@ -132,13 +169,17 @@ h1{
 .button-request:hover{
   width: 136px;
   margin-left: 732px;
-  background: #188CE8;
+  background: var(--button-hover);
   box-shadow: 0px 4px 4px 0px #00000026;
   width: 200px;
   height: 50px;
   top: 430px;
   left: 700px;
   border-radius: 4px;
+  font-family: inherit;
+}
+.button-request:active{
+  color: var(--button-hover);
 }
 .button-request{
   width: 200px;
@@ -147,80 +188,104 @@ h1{
   left: 700px;
   border-radius: 4px;
   flex-shrink: 0;
-  color: #ffffff;
-  font-family: Roboto;
+  color: var(--background);
+  font-family:Roboto;
   font-size: 16px;
   font-weight: 700;
-  line-height: :30px; /*187.5% */
+  background:var(--link-activ);
+  line-height: :2.34; /*187.5% ,30px*/
   letter-spacing:0.96px;
-  background:#2196f3;
   box-shadow: 0px 4px 4px 0px #00000026;
-
+  font-family:inherit;
+  
 }
 
 /*about company*/
-h3{
+
+.company-title{
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
-  line-height: 16px;
+  line-height: 1.28;
   letter-spacing: 0.03em;
   text-align: left;
   width: 270px;
   height: 16px;
   top: 774px;
-  color: #212121;
+  color: var(--link-color);
 }
 
 .details{
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   text-align: left;
+  color: var(--address);
   width: 270px;
   height: 75p;x
   margin-top: 800px;
-  color: #757575;
+  
 }
 
+/*what we do*/
 
-/*gallery*/
 
-.gallery {
-  border: 1px solid;
-  color: #eeeeee;
-}
 
-p {
+.boxes-title{
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 36px;
   font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  text-align: left;
-  color: #212121;
+  line-height: 3.29;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--link-color);
 }
 
-span {
+/*our team*/
+.team{
+  background-color: var(--team-background);
+}
+
+.team-title{font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 3.29;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color:var(--link-color);
+}
+
+.team-name{
+  font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.48;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--link-color);
+
+}
+
+.functions-name{
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.46;
   letter-spacing: 0.03em;
-  text-align: left;
-  color: #757575;
-
+  text-align: center;
+  color:var(--address);
 }
+  
 
 /*footer*/
 
 .footer{
-  background: #2F303A;
+  background: var(--main-background);
   width: 1600px;
   height: 251px;
-  top: 1628px;
+  top: 2097px;
 }
 .logo{margin-left: 215px;}
 
@@ -228,10 +293,10 @@ span {
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
-  line-height: 30.52px;
+  line-height: 2.38;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #ffffff;
+  color: var(--background);
 
 }
 
@@ -239,21 +304,22 @@ span {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
-  line-height: 16.41px;
+  line-height: 1.28;
   letter-spacing: 0.03em;
+  color:var(--background);
   text-align: left;
   width: 207px
   height: 16px;
   top: 1747px;
   margin-left: 215px;
-  color:#ffffff;
+  
 }
 
 .footer-address{
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
-  line-height: 16.41px;
+  line-height: 1.28;
   letter-spacing: 0.03em;
   text-align: left;
   color: #FFFFFF99;
@@ -261,6 +327,7 @@ span {
   height: 16px;
   margin-left: 215px;
   margin-top: 1775px;
+  
 
 }
 
