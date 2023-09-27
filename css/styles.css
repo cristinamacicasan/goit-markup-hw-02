@@ -39,10 +39,10 @@ ul {
 
 }
 .logo-web{
-  font-family:"Oleo Script", sans-serif;
+  font-family:"Raleway", sans-serif;
 }
 .logo .logo-web {
-font-family: Oleo Script;
+font-family: Raleway;
 font-size: 26px;
 font-weight: 400;
 line-height: 2.8;
@@ -163,35 +163,48 @@ button{
   cursor: pointer;
 }
 .button-request:hover{
-  width: 200px;
-  margin-left: 700px;
-  background: var(--button-hover);
-  box-shadow: 0px 4px 4px 0px #00000026;
-  height: 50px;
-  top: 430px;
-  left: 700px;
-  border-radius: 4px;
+  font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.06em;
+text-align: center;
+color: var(--background);
+width: 136px
+height: 30px;
+top: 440px;
+left: 732px;
+width: 200px;
+height: 50px;
+top: 430px;
+left: 700px;
+border-radius: 4px;
+background-color:var(--button-hover);
+box-shadow: 0px 4px 4px 0px #00000026;
+
 }
-.button-request:active{
-  color: var(--button-hover);
-}
+
+
 .button-request{
-  width: 161px;
-  height: 30px;
-  top: 440px;
-  left: 720px;
-  border-radius: 4px;
-  flex-shrink: 0;
-  color: var(--background);
-  font-family:var(--text-font-family);
-  font-size: 16px;
-  font-weight: 700;
-  background:var(--link-activ);
-  line-height: :2.34; /*187.5% ,30px*/
-  letter: spacing 6%;;
-  box-shadow: 0px 4px 4px 0px #00000026;
-  font-family:inherit;
-  
+  font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.06em;
+text-align: center;
+color: var(--background);
+width: 161px
+height: 30px;
+top: 440px;
+left: 720px;
+width: 200px
+height: 50px;
+top: 430px;
+left: 700px
+border-radius: 4px;
+background-color: var(--link-activ);
+box-shadow: 0px 4px 4px 0px #00000026;
+
 }
 
 /*about company*/
@@ -337,7 +350,5 @@ button{
   height: 16px;
   margin-left: 215px;
   margin-top: 1775px;
-  
-
 }
 
