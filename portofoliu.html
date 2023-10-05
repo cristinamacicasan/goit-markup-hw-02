@@ -11,6 +11,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="global-header">
@@ -38,28 +44,33 @@
     <main>
       <section>
         <!-- buttons -->
-        <ul>
-          <li><button type="button">All</button></li>
-          <li><button type="button">Web-sites</button></li>
-          <li><button type="button">Apps</button></li>
-          <li><button type="button">Design</button></li>
-          <li><button type="button">Marketing</button></li>
+        <ul class="portofoliu-buttons">
+          <li><button class="button-all" type="button">All</button></li>
+          <li>
+            <button class="button-web-sites" type="button">Web-sites</button>
+          </li>
+          <li><button class="button-apps" type="button">Apps</button></li>
+          <li><button class="button-design" type="button">Design</button></li>
+          <li>
+            <button class="button-marketing" type="button">Marketing</button>
+          </li>
         </ul>
 
         <!-- gallery -->
 
-        <ul>
+        <ul class="gallery">
           <li>
             <img
+              class="gallery-name"
               src="./images/technoduck-1.jpg"
               alt="Our people"
               width="370"
               height="294"
             />
             <br />
-            <p>Technoduck</p>
+            <p class="gallery-name">Technoduck</p>
             <br />
-            <span>Web-site</span>
+            <span class="gallery-function">Web-site</span>
           </li>
           <li>
             <img
@@ -69,9 +80,9 @@
               height="294"
             />
             <br />
-            <p>Poster New Orlean vs Golden Star</p>
+            <p class="gallery-name">Poster New Orlean vs Golden Star</p>
             <br />
-            <span>Design</span>
+            <span class="gallery-function">Design</span>
           </li>
           <li>
             <img
@@ -81,9 +92,9 @@
               height="294"
             />
             <br />
-            <p>Seafood Restaurant</p>
+            <p class="gallery-name">Seafood Restaurant</p>
             <br />
-            <span>Apps</span>
+            <span class="gallery-function">Apps</span>
           </li>
           <li>
             <img
@@ -93,9 +104,9 @@
               height="294"
             />
             <br />
-            <p>Project Prime</p>
+            <p class="gallery-name">Project Prime</p>
             <br />
-            <span>Marketing</span>
+            <span class="gallery-function">Marketing</span>
           </li>
           <li>
             <img
@@ -105,9 +116,9 @@
               height="294"
             />
             <br />
-            <p>Project Boxes</p>
+            <p class="gallery-name">Project Boxes</p>
             <br />
-            <span>Apps</span>
+            <span class="gallery-function">Apps</span>
           </li>
           <li>
             <img
@@ -117,9 +128,9 @@
               height="294"
             />
             <br />
-            <p>Inspiration has no Borders</p>
+            <p class="gallery-name">Inspiration has no Borders</p>
             <br />
-            <span>Web-site</span>
+            <span class="gallery-function">Web-site</span>
           </li>
           <li>
             <img
@@ -129,9 +140,9 @@
               height="294"
             />
             <br />
-            <p>Limited Edition</p>
+            <p class="gallery-name">Limited Edition</p>
             <br />
-            <span>Design</span>
+            <span class="gallery-function">Design</span>
           </li>
           <li>
             <img
@@ -141,9 +152,9 @@
               height="294"
             />
             <br />
-            <p>Project LAB</p>
+            <p class="gallery-name">Project LAB</p>
             <br />
-            <span>Marketing</span>
+            <span class="gallery-function">Marketing</span>
           </li>
           <li>
             <img
@@ -153,9 +164,9 @@
               height="294"
             />
             <br />
-            <p>Growing Business</p>
+            <p class="gallery-name">Growing Business</p>
             <br />
-            <span>Apps</span>
+            <span class="gallery-function">Apps</span>
           </li>
         </ul>
       </section>
@@ -171,13 +182,13 @@
         </span>
       </a>
 
-      <address>
-        <p class="address">695 Park Ave, NY 10065, USA</p>
+      <address class="footer-address">
+        <p class="name-address">695 Park Ave, NY 10065, USA</p>
         <br />
-        <a class="footer-address" href="mailto:info@devstudio.com"
+        <a class="footer-email-tel" href="mailto:info@devstudio.com"
           >info@devstudio.com</a
         ><br />
-        <a class="footer-address" href="tel:+12127724150">+1 212-772-4150</a>
+        <a class="footer-email-tel" href="tel:+12127724150">+1 212-772-4150</a>
       </address>
     </footer>
   </body>
